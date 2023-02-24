@@ -6,5 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'Industial-Aither-Aliance';
+  title = 'Industrial Aither Logistics';
+  itemImageUrl = '../assets/img/logo.png';
 }
