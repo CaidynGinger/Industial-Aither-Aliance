@@ -6,5 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./header.component.css']
 })
 export class HeaderComponent {
-
+  title = 'Industrial Aither Logistics';
+  itemImageUrl = '../../assets/img/logo.png';
 }

@@ -1,0 +1,50 @@
+.hero-text{
+    width: 40%;
+    display: block;
+}
+
+.hero-text h2{
+    margin-bottom: 20px;
+    font-weight: 300;
+    font-size: 40px;
+
+}
+
+.hero-text p {
+    font-weight: 300;
+    font-size: 18px;
+    letter-spacing: 0.5px;
+}
+
+.hero-container{
+    display: flex;
+    margin-top: 50px;
+}
+
+.hero-container img{
+    width: 40%;
+    height: auto;
+    margin: auto;
+}
+
+.btn {
+	background: #E23838;
+    border: #E23838 solid 2px;
+	border-radius: 5px;
+	color: white;
+	font-weight: 400;
+	width: 40%;
+	height: 45px;
+	font-size: 16px;
+    cursor: pointer;
+    margin-right: 40px;
+}
+
+.btn:hover {
+    background-color: #c91a1a;
+    border: #c91a1a solid 2px;
+}
+
+.btn-ghost{
+    background: transparent;
+}

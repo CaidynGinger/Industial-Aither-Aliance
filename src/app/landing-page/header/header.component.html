@@ -1,1 +1,13 @@
-<p>header works!</p>
+<nav class="nav row">
+  <div class="logo-container">
+    <img class="logo" alt="item" [src]="itemImageUrl" />
+    <h3>{{ title }}</h3>
+  </div>
+
+  <a routerLink='/about-IAL' routerLinkActive="active">About IAL</a>
+  <a routerLink='/about-IAL' routerLinkActive="active">Get in Contact</a>
+  <a routerLink='/about-IAL' routerLinkActive="active">Pricing</a>
+  <a routerLink='/login' routerLinkActive="active">Login</a>
+</nav>
+
+<app-hero-text class="row"></app-hero-text>

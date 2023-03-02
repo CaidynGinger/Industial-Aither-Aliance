@@ -8,4 +8,5 @@ import { Component } from '@angular/core';
 export class LandingPageComponent {
   title = 'Industrial Aither Logistics';
   itemImageUrl = '../assets/img/logo.png';
+  
 }
